@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TMNT Hangman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="../Psychic-Game/assets/css/style.css" />
+    <script src="../Psychic-Game/assets/javascript/game.js"></script>
+</head>
+<body>
+
+<!-- Header -->
+<div class="container" id="cont1">
+    <img id= "title-image" src= "../Psychic-Game/assets/images/TMNTlogo.png" alt= "Hangman Title Header"/>
+</div>
+
+
+<div class="container" id="cont2">
+    <div class="row">
+        <!-- Left Column -->
+        <div class= "cd-md-4" id="leftcol">
+            <h2 id= "wordToGuess">_ _ _ _ _ _ _</h2>
+        </div>
+        <!-- Right Column -->
+        <div class= "cd-md-8" id="rightcol">
+                <div class= "row">
+                    <h2 id= "wrongGuesses1">Wrong Guesses: <span id= "wrongGuesses"></span></h2>
+                </div>
+            
+                <div class= "row">
+                    <h2 id= "numGuesses1">Guesses Left: <span id= "numGuesses"></span></h2>
+                </div>
+
+                <div class= "row">
+                    <h2 id= "winCounter1">Number of Wins: <span id= "winCounter"></span></h2>
+                </div>    
+
+                <div class= "row">
+                    <h2 id= "lossCounter1">Number of Losses: <span id= "lossCounter"></span></h2>
+                </div>
+        </div> 
+    </div>
+</div>     
+       
+<script src="../Psychic-Game/assets/javascript/game.js" defer></script>
+</body>
+</html>
